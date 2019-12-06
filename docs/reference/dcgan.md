@@ -46,10 +46,10 @@ const dcgan = ml5.DCGAN(modelPath, callback);
 
   ```json
   {
-      "description": "Aerial Images of Santiago, Chile 64x64 (16 MB)",
-      "model": "model/geo/model.json",
-      "modelSize": 64,
-      "modelLatentDim": 128
+    "description": "Aerial Images of Santiago, Chile 64x64 (16 MB)",
+    "model": "model/geo/model.json",
+    "modelSize": 64,
+    "modelLatentDim": 128
   }
   ```
 * **callback**: Required. A function to run once the model has been loaded.
