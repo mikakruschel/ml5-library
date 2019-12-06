@@ -51,19 +51,19 @@ const faceapi = ml5.faceApi(videoOrOptionsOrCallback, optionsOrCallback?, callba
 * **optionsOrCallback**: OPTIONAL. Notice the `?` indicates an optional parameter.
 * **callback**: OPTIONAL. A description of some kind of object with some properties. Notice the `?` indicates an optional parameter.
 
-    ```js
-    {
-      withLandmarks: true,
-      withDescriptors: true,
-      minConfidence: 0.5,
-      MODEL_URLS: {
-        Mobilenetv1Model: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/ssd_mobilenetv1_model-weights_manifest.json',
-        FaceLandmarkModel: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_landmark_68_model-weights_manifest.json',
-        FaceLandmark68TinyNet: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_landmark_68_tiny_model-weights_manifest.json',
-        FaceRecognitionModel: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_recognition_model-weights_manifest.json',
-      },
-    };
-    ```
+  ```js
+  {
+    withLandmarks: true,
+    withDescriptors: true,
+    minConfidence: 0.5,
+    MODEL_URLS: {
+      Mobilenetv1Model: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/ssd_mobilenetv1_model-weights_manifest.json',
+      FaceLandmarkModel: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_landmark_68_model-weights_manifest.json',
+      FaceLandmark68TinyNet: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_landmark_68_tiny_model-weights_manifest.json',
+      FaceRecognitionModel: 'https://raw.githubusercontent.com/ml5js/ml5-data-and-models/face-api/models/faceapi/face_recognition_model-weights_manifest.json',
+    },
+  };
+  ```
 
 ### Properties
 
