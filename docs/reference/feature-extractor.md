@@ -62,18 +62,18 @@ const featureExtractor = ml5.featureExtractor(model, ?options, ?callback);
 * **callback**: OPTIONAL. A function to be executed once the model has been loaded. If no callback is provided, it will return a promise that will be resolved once the model has loaded.
 * **options**: OPTIONAL. An object containing custom options. For the MobileNet model these are the custom options you can reset.
 
-    ```js
-    {
-      version: 1,
-      alpha: 1.0,
-      topk: 3,
-      learningRate: 0.0001,
-      hiddenUnits: 100,
-      epochs: 20,
-      numLabels: 2,
-      batchSize: 0.4,
-    };
-    ```
+  ```js
+  {
+    version: 1,
+    alpha: 1.0,
+    topk: 3,
+    learningRate: 0.0001,
+    hiddenUnits: 100,
+    epochs: 20,
+    numLabels: 2,
+    batchSize: 0.4,
+  };
+  ```
 
 ### Properties
 
