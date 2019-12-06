@@ -18,7 +18,7 @@ The fastest way to get started exploring the creative possibilities of ml5.js ar
 2. Open this [p5 web editor sketch with ml5.js added](https://editor.p5js.org/ml5/sketches/oYweRi2H7).
 3. You can also copy and paste the cdn link to the ml5 library here:
 
-  ```
+  ```html
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
   ```
 
@@ -30,7 +30,7 @@ Reference the [latest version](https://unpkg.com/ml5@0.4.3/dist/ml5.min.js) of m
 
 In an **index.html** file, copy and paste the following and open up that file in your web browser.
 
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
