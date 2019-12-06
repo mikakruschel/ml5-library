@@ -80,13 +80,13 @@ charrnn.generate(options, ?callback);
 📥 **Inputs**
 
 * **options**: REQUIRED. An object specifying the input parameters of seed, length and temperature. Default length is 20, temperature is 0.5 and seed is a random character from the model. The object should look like this
-    ```js
-    {
-      seed: 'The meaning of pizza is',
-      length: 20,
-      temperature: 0.5,
-    };
-    ```
+  ```js
+  {
+    seed: 'The meaning of pizza is',
+    length: 20,
+    temperature: 0.5,
+  };
+  ```
 * **callback**: Optional. Function. A function to be called when the model has generated content. If no callback is provided, it will return a promise that will be resolved once the model has generated new content.
 
 📤 **Outputs**
